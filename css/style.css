@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+   a {
+      text-decoration: none;
+      color: inherit;
+  }
+  
+  header {
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 9%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  header nav ul {
+    color: #97999b;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-top: 19px;
+  }
+  
+  .bannersection {
+    background-image: url(../image/pexels-alex-staudinger-1732417.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .content {
+    padding: 250px 0px;
+    text-align: center;
+  }
+  
+  .content h1 {
+    color: #ffffff;
+    font-size: 32.38;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 3px;
+  }
+  
+  .content h6 {
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    font-size: small;
+  }
+  
+  .content button {
+    border: 1px solid#ffffff;
+    font-size: 10px;
+    padding: 8px 25px;
+    text-transform: capitalize;
+    background: #ff5722d4;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 5px;
+  }
+  
+  .design {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 68%;
+  }
+  
+  .designone {
+    text-align: center;
+  }
+  
+  .designone h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .designone h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #97999b;
+    font-size: 13px;
+  }
+  
+  .designtwo {
+    text-align: center;
+  }
+  
+  .design-icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: #ff5722d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #ffffff;
+    border: 1px solid#ffff;
+  }
+  
+  .designtwo h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .designtwo h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #97999b;
+    font-size: 13px;
+  }
+  
+  .designthree {
+    text-align: center;
+  }
+  
+  .designthree h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .designthree h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #97999b;
+    font-size: 13px;
+  }
+  
+  .design-icon i {
+    color: #ffffff;
+  }
+  
+  i.fa-solid.fa-angle-right {
+    color: #ffffff;
+    margin-left: 7px;
+  }
+  
+  .airtical-part {
+    width: 80%;
+    margin: auto;
+  }
+  h3 {
+    font-weight: 300;}
+  
+  .airtical {
+    text-align: center;
+    color: #fb6e52;
+    margin-top: 48px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+  }
+  
+  .picture {
+    justify-content: space-evenly;
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  .pictureitem {
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .blogpart {
+    width: 50%;
+    height: 400px;
+    margin: 20px;
+  }
+  .pictureitem img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .pictureitem h3 {
+    text-align: center;
+  
+    font-family: "Roboto", sans-serif;
+  
+    font-weight: 400;
+  
+    font-style: normal;
+  
+    font-size: 15px;
+  
+    margin-top: 15px;
+  
+    color: #292c34;
+  }
+  
+  .pictureitem h6 {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    color: #97999b;
+  }
+  
+  .section {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .section h2 {
+    text-align: center;
+    padding: 50px 0px 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .blog {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+  
+  .blogpart img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .blogpart h3 {
+    font-size: 15px;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    color: #fb6e52;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  
+  .blogpart h6 {
+    font-size: 13px;
+    color: #97999b;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-right: 100px;
+  }
+  
+  footer {
+    width: 100%;
+    background: black;
+  }
+  
+  .footercontent {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    background: black;
+    height: 100px;
+  }
+  
+  .terms {
+    width: 50%;
+  }
+  
+  .terms ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .terms ul li a {
+    text-decoration: none;
+    color: #797c82;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-right: 28px;
+  }
+  
+  .socialicon ul li a {
+    color: #ffffff;
+  }
+  
+  .socialicon ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .socialicon ul li {
+    margin-left: 35px;
+  }
+  
